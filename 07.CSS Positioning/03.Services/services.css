@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+.container {
+    background-color: #F0F0E8;
+}
+div{
+text-align: center;
+}
+div h1{
+    font-size: 56px;
+    color: #009288;
+    text-transform: capitalize;
+    text-align: center;
+    font-family:'OpenSans-ExtraBold',Helvetica,sans-serif ;
+}
+div h2{
+    color: #009288;
+    text-align: center;
+}
+div h3{
+    color: #009288;
+    text-align: center;
+    font-size: 18px;
+    text-align: center;
+}
+article{
+    display: inline-block;
+    width: 200px;
+    position: relative;
+left: 30px;
+    text-align: center;
+    height: 200px;
+    margin-right: 4%;
+}
+article h3{
+    color:#767C81;
+}
+article:hover{
+    background-color: white;
+    cursor: pointer;
+    border-left: 9px solid #009288;
+}
+article p{
+   color:#767C81;
+    font-size: 16px;
+}

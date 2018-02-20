@@ -1,0 +1,84 @@
+
+@font-face {
+font-family:Lemon-Regular,Arial ;
+    src: url('fonts/Lemon-Regular.ttf');
+}
+body{
+    font-family: Lemon, Arial;
+    font-size: 15px;
+    background-color: #602D75;
+}
+div{
+    width: 900px;
+    text-align: center;
+    background-color:#FFAE32 ;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 10px 10px 20px;
+}
+article{
+    display: inline-block;
+    background-color:#5F2056 ;
+    border-radius: 22px 3px 22px 3px;
+    margin: 10px;
+    width: 180px;
+    padding: 20px 10px;
+}
+h1{
+    font-family: Lemon, Arial;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 900;
+
+}
+h2{
+    font-size: 22px;
+    color: white;
+    font-weight: 900;
+}
+h3{
+    color: #FFAE32;
+    font-weight: 900;
+}
+
+img{
+    width:100px;
+    border: 2px solid #816A72;
+    border-radius: 50px;
+}
+ li{
+    list-style: none;
+    font-size: 15px;
+    color: white;
+     font-weight: 900;
+}
+ul{
+    text-align: left;
+    padding-left: 10px;
+}
+button{
+    background-color: white;
+    color: #816A72;
+    font-size: 15px;
+    border: 1px solid #816A72;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-weight: 900;
+}
+img:hover{
+    width:100px;
+    border: 2px solid red;
+    border-radius: 50px;
+}
+img:hover::before{
+    content: 'model';
+    position: relative;
+    top: 60px;
+    left: 50px;
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    display: inline-block;
+}
