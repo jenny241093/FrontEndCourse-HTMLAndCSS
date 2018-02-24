@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectResources">
+    <resource url="https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,700" location="$PROJECT_DIR$" />
+    <resource url="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" location="$PROJECT_DIR$" />
+  </component>
+</project>
