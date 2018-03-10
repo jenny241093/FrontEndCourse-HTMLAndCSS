@@ -1,0 +1,48 @@
+﻿@media screen and (max-width: 756px){
+
+}
+@media screen and (max-width: 999px){
+    #wrapper {
+        width: 100%;
+        height: auto;
+    }
+    #logoarea {
+        float: none;
+        display: block;
+    }
+    header {
+        height: auto;
+    }
+    #header-area-right {
+        float: none;
+        padding: 0;
+    }
+    #menu {
+        display: block;
+        float: none;
+    }
+    #search-form {
+        float: none;
+        width: 260px;
+        margin-top: 10px;
+    }
+    section.contentblock {
+        min-width: 0;
+    }
+    #wrapper, body {
+        min-width: 0;
+    }
+    #publicphotos {
+        width: calc(100% - 35px);
+    }
+    #publicphotos h1 {
+        text-align: center;
+    }
+
+    #p-albums-items {
+        justify-content: center;
+    }
+
+    footer {
+        min-width: 0;
+    }}

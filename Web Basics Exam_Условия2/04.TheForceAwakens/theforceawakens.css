@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "lato";
+}
+body {
+    background-color: #F5FAFC;
+}
+header {
+    padding: 20px;
+}
+
+
+.top {
+    display: inline-block;
+    width: 100%;
+}
+h3 {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: slategray;
+    font-weight: 100;
+    vertical-align: middle;
+}
+
+
+nav { 
+    float: right;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li {
+    float: right;
+}
+ 
+li a {
+    display: block;
+    color: slategray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li:hover a {
+    font-weight: bold;
+}
+h3 {
+    float: left;
+}
+#sec1 > article.episode7{
+    width: 460px;
+}
+header #sec1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+    
+}
+#sec1 > article > h3.episode {
+    width: 100%;
+}
+#sec1 > article > .episode-nav {
+    width: 450px;
+}
+body > main > .main-sec {
+    background: #fff;
+   
+    
+}
+body > main > section > h3 {
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+body > main > section > div.container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+body > main > section > div > div.article-img {
+    width: 500px;
+    
+}
+body > main > section > div > div.article-img > p,
+body > main > section > div > div.article-img2 > p{
+    width: 200px;
+    padding: 15px;
+}
+body > main > section > div > div.article-img > p {
+    float: left;
+}
+body > main > section > div > div.article-img2 > p {
+    float: right;
+}
+ 

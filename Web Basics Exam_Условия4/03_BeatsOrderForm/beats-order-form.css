@@ -1,0 +1,23 @@
+@import "http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+section{
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+}
+
+article{
+    height: 421px;
+}
+.img img{
+    height:inherit;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 42%;
+    margin: 0 auto;
+}
+div{
+    width: 50%;
+}

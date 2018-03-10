@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+header{
+    background-color: #F5FAFC;
+    padding: 20px 26px;
+    color: #7C99A2;
+}
+body{
+    font-family: 'Lato',sans-serif;
+}
+header span{
+    color: #7C99A2;
+}
+nav ul {
+
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: #7C99A2;
+    font-size: 20px;
+}
+.first-word{
+    color: #2D4B5D;
+    font-weight: bolder;
+
+}
+header section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+section>article{
+    width: 40%;
+}
+section article img{
+    width: 40%;
+    height: 300px;
+}
+section article h5{
+    overflow: hidden;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+}
+h5:before,
+h5:after {
+    background-color: black;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+h5:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+h5:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+header h1{
+   color: #4C8ADD;
+    text-align: center;
+    font-size: 30px;
+}
+article nav ul li{
+    display: inline-block;
+}
+article .info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.info i{
+    font-size: 26px;
+    position: relative;
+    left: 48px;
+    top: -3px;
+}
+.info span{
+    position: relative;
+    right: 50px;
+   color:  #DAE4E8
+}
+.info nav{
+    position: relative;
+    bottom: 15px;
+}
+.info nav ul li a{
+    color: #DAE4E8;
+}
+.info p{
+    width: 90%;
+}
+.main-section{
+    margin: 0 auto;
+    text-align: center;
+}
+ h1{
+    text-align: center;
+    text-transform: uppercase;
+     color: #4E737F;
+     font-weight: normal;
+     letter-spacing: 10px;
+}
+.main-section article{
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.main-section .persons p{
+    width: 50%;
+}
+.main-section .persons div{
+
+    width: 50%;
+
+}
+.main-section .persons div>img{
+height: 160px;
+    width: 142px;
+}
+.main-section .persons h1{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.main-section .persons div> .Ray{
+float: right;
+}
+.main-section .persons div> .Fin{
+float: left;
+}
+.img-section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.img-section div{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+    width: 25%;
+    height: 300px;
+}
+.img-section div h3
+{
+    width: 100%;
+    text-align: center;
+}
+.img-section img{
+    idth: 220px;
+    height: 175px;
+    margin: 34px 30px;
+}
+.img-section .even{
+    background-color: #E1EEF6;
+}
+.img-section .odd{
+    background-color: #C4DEED;
+}

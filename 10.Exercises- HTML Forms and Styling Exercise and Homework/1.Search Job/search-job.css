@@ -1,0 +1,95 @@
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+main{
+
+
+}
+body{
+
+font-size: 14px;
+    font-family: Tahoma,Helvetica,sans-serif;
+padding: 80px 50px;
+}
+nav{
+    background-color: #384452;
+    padding: 1px 15px;
+    width: 70%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+nav ul li{
+    display: inline-block;
+ padding: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #8BAEC4;
+
+ margin-left: 15px;
+
+}
+.fa-search,.fa-tags,.fa-map-marker,.fa-user {
+    color:#8BAEC4 ;
+    font-size: 18px;
+    position: relative;
+left: 15px;
+}
+li:hover{
+background-color: #3BBC96;
+
+}
+li a:hover{
+ color: #ffffff;;
+}
+.fa-search:hover,.fa-tags:hover,.fa-map-marker:hover,.fa-user:hover {
+    color:#ffffff ;
+    font-size: 18px;
+    position: relative;
+    left: 15px;
+}
+
+form{
+    background-color: #eeeeee;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+label{
+    color: #374574;
+    display: block;
+   font-weight: bold;
+   width: 210px;
+    margin-left: 38px;
+   margin-top: 20px;
+
+}
+input{
+   border: 1px solid #CDCDCD;
+margin-top: 20px;
+    margin-bottom: 20px;
+    height: 46px;
+    padding-left:  14px;
+
+}
+button{
+   margin-left: 38px;
+  width: 210px;
+  height: 46px;
+    text-transform: uppercase;
+ background-color: #384452;
+   color: #CED1CA;
+
+}
+button:hover{
+   background-color: #3BBC96;
+    color: #FFF7E4;
+cursor: pointer;
+
+
+}
+
+nav,ul,div,label{
+    margin: 0px;
+    padding: 0px;
+}

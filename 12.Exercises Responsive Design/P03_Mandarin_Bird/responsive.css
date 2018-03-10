@@ -1,0 +1,42 @@
+@media screen and (max-width: 1200px){
+    body>#wrapper{
+        width: 100%;
+    }
+    header,main{
+        width: 80%;
+    }
+
+    header nav > ul li {
+        width: 20%;
+    }
+    main section {
+        width: 90%;
+        margin: 40px auto 0;
+        float: none;
+    }
+
+    main aside {
+        margin: 0 auto 20px;
+        width: 90%;
+        float: none;
+    }
+    footer {
+        text-align: center;
+    }
+
+    footer p {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 730px){
+    body>#wrapper{
+        font-size: 10px;
+    }
+    header > nav {
+        height: auto;
+    }
+    header nav > ul li {
+        width: 100%;
+        display: block;
+        float: none;}
+}

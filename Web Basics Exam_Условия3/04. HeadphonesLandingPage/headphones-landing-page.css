@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+main{
+    text-align: center;
+}header{
+    background: url("img/background-image.png")no-repeat center;
+ background-size: cover;
+    height: 500px;
+    font-family: Montserrat,sans-serif;
+}
+header nav{
+    background: white;
+    height: 56px;
+}
+header nav ul{
+    float: right;
+    margin-top: 10px;
+}
+header nav ul li{
+ display: inline-block;
+font-weight: bolder;
+    padding: 0px 54px;
+    text-transform: uppercase;
+
+}
+header span{
+    font-size: 18px;
+    font-weight: bolder;
+}
+ .fa{
+     color: #FFCD02;
+     font-size: 32px;
+     position: relative;
+     top: 6px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #9B9B9B;
+    cursor: pointer;
+}
+header nav ul li a:hover{
+  border-bottom: 1px solid black;
+    color: black;
+}
+header h1{
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    text-transform: uppercase;
+}
+header p{
+    width: 46%;
+    text-align: center;
+    margin: 0 auto;
+    color: #52676A;
+    font-weight: bolder;
+}
+header button{
+    border: none;
+    background: #FFCD02;
+    color: white;
+    display:block;
+    width: 161px;
+    margin: 20px auto;
+    padding: 12px 18px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+header button:hover{
+    background: #19CDFA;
+}
+.one{
+    display: flex;
+}
+.one #first-article,.one #second-article{
+    background-size: auto;
+}
+
+.one #first-article,.one #second-article{
+    background: url("img/headphone-yellow.png")no-repeat center;
+    background-size: cover;
+    background-color:#18CDFA;
+
+}
+.one #second-article{
+    background: url("img/headphone-black.png")no-repeat center;
+    background-size: cover;
+
+}.one article{
+     width: 50%;
+     height: 200px;
+
+ }
+#first-article h1{
+
+    margin-top: 70px;
+}
+#second-article h1{
+
+    margin-top: 70px;
+}
+ #first-article h1 , p{
+     color: #F7FDD3;
+     text-transform: uppercase;
+ }
+#second-article h1, p{
+    color: white;
+    text-transform: uppercase;
+}
+.two{
+    background: #F6F7FB;
+    font-family: Montserrat,sans-serif;
+
+}
+.products{
+    padding: 42px;
+    display: flex;
+    justify-content: space-between;
+}
+.products article{
+    background: #FFFFFF;
+    width: 30%;
+}
+.two h1 {
+    margin-top: 0px;
+    padding-top: 30px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.two h5{
+    color: #68D2E2;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+
+}
+.two p{
+    color: #90999A;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.three{
+    display: flex;
+}
+.three #first-art,.three #second-art{
+    background-size: auto;
+}
+
+.three #first-art,.three #second-art{
+    background: url("img/showcase1.png")no-repeat center;
+    background-size:cover;
+    background-color:#18CDFA;
+
+}
+.three #second-art{
+    background: url("img/showcase2.png")no-repeat center;
+    background-size: cover;
+    background-color: #FB3697;
+
+}.three article{
+     width: 50%;
+     height: 200px;
+
+ }
+#first-art h1{
+
+    margin-top: 70px;
+}
+#second-art h1{
+
+    margin-top: 70px;
+}
+#first-art ,#second-art h1 , p{
+   color: white;
+    text-transform: uppercase;
+}
+.blog-articles{
+    font-family: Montserrat,sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.blog-articles article{
+    width: 30%;
+}
+.blog-articles article img{
+    max-width: 288px;
+    float: left;
+}
+.blog-articles p{
+    text-align: left;
+font-size: 12px;
+    color: #A5A4A9;
+    text-transform: none;
+    width: 82%;
+}
+.blog-articles h5{
+    text-transform: uppercase;
+    font-weight: bolder;
+    width: 93%;
+    text-align: left;
+
+}
+.blog-articles .read-more{
+    color: #18CDFA;
+    text-transform: uppercase;
+    font-weight: bolder;
+    display: block;
+    float: left;
+    vertical-align: bottom;
+    font-size: 15px;
+}

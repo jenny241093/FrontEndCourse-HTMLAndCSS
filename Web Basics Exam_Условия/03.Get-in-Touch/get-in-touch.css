@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body{
+    font-family: 'Lato';
+}
+main{
+
+    display: flex;
+}
+section>p{
+    width: 88%;
+    font-size: 13px;
+}
+.left-part{
+    width: 70%;
+    padding: 20px;
+
+}
+.right-part{
+    width: 35%;
+}
+.names label,.info label{
+    width: 45%;
+}
+.names,.info{
+    display: flex;
+}
+input{
+    width: 90%;
+    padding: 5px 0;
+}
+textarea{
+    width: 85%;
+}
+button{
+    display: block;
+    margin-top: 20px;
+    color:white;
+    background: orange;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 25px;
+    font-size: 12px;
+}
+form p{
+margin-bottom: 0;
+}
+ h4{
+    border-bottom: 1px solid lightgray;
+}
+.fa{
+    display: inline-flex;
+    position: absolute;
+    flex-wrap: wrap;
+    justify-content: normal;
+     color: #00AEA4;
+
+ }
+.right-part p {
+    position: relative;
+    margin: 18px 17px;
+    bottom: 4px;
+    left: 10px;
+}

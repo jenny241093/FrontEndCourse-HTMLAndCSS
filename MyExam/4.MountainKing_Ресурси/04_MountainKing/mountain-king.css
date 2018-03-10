@@ -1,0 +1,173 @@
+@import "https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+    font-family: 'Lato', sans-serif;
+
+}
+header{
+    background: url("img/background-header.jpg") no-repeat center;
+    background-size: cover;
+}
+.header-img{
+
+}
+.header-img img{
+    width: 10%;
+    background-size: cover;
+
+}
+ header .big {
+     font-size: 54px;
+     text-align: center;
+     color: #716F74;
+     font-weight: lighter;
+     text-align: center;
+     margin-bottom: 0px;
+     margin-top: 0px;
+}
+ h1{
+     margin-top: 0px;
+     text-align: center;
+     font-size: 83px;
+     font-weight: bolder;
+ }
+ header .simple{
+     text-align: center;
+     font-size: 50px;
+     color: #3E2A2A;
+     margin: 0px;
+     text-shadow: 2px 2px gainsboro;
+ }
+ .button{
+
+     text-align: center;
+     margin-top: 82px;
+ }
+ button{
+     border: none;
+     padding: 12px 21px;
+     border-radius: 20px;
+     color: white;
+     margin-bottom: 54px;
+ }
+ .blue{
+     background: #332E62;
+ }
+ .red{
+     background: #F42257;
+ }
+ .second{
+     display: flex;
+     justify-content: space-between;
+     padding: 20px;
+ }
+ .second article{
+     width: 30%;
+     padding: 20px;
+ }
+
+.second span {
+    font-size: 46px;
+    border-radius: 60%;
+    border: 5px solid #C17F3F;
+    padding: 30px;
+    color: #C17F3F;
+    position: relative;
+    left: 213px;
+    top: 54px;
+ }
+.second .last-span {
+    font-size: 46px;
+    padding-left: 45px;
+    padding-right: 40px;
+}
+.second h1{
+    margin-top: 82px;
+    font-size: 50px;
+    font-style: italic;
+    text-shadow: 2px 2px black;
+}
+.second p{
+    text-align: center;
+    /* width: 88%; */
+    font-size: 29px;
+}
+.third{
+    background: url("img/moon.jpg");
+    background-size: cover;
+    height: 700px;
+}
+.third article{
+    border: 2px solid #FFA951;
+    text-align: center;
+  background: #29343E;
+    width: 30%;
+    color: white;
+    margin-left: 94px;
+    height: 567px;
+    margin-bottom: 55px;
+}
+.third h1{
+    font-size: 32px;
+    margin: 49px auto;
+}
+.third h5{
+    font-size: 17px;
+    font-weight: normal;
+}
+.third p{
+    font-size: 19px;
+}
+.third .circles{
+    margin: 144px;
+}
+.third .old,.third .new{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background: linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    border-radius: 50%;
+    padding: 42px 15px;
+    color: #2B3640;
+
+}
+.third .old{
+    margin: 20px;
+    position: relative;
+    right: 53px;
+}
+.third .new{
+    position: relative;
+    left: 23px;
+}
+footer{
+    margin-top: 128px;
+    background: black;
+}
+footer p{
+    margin: 0px;
+    color: white;
+    padding-left: 79px;
+}
+footer .softuni{
+    color: #5C2E19 ;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.facebook{
+    color: blue;
+}
+.twitter{
+    color:deepskyblue;
+}
+.instagram{
+    color: #8137B0;
+}
+footer div{
+
+ text-align: right;
+}
+footer span{
+text-align: right;
+    font-size: 25px;
+}

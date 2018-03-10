@@ -1,0 +1,105 @@
+
+
+@media screen and (max-width: 979px) {
+    #header .inner>#nav>a{
+    display: none;
+}
+    #header .logo{
+        left: 27px;
+        top: -20px;
+    }
+    #header{
+        width: 100%;
+    }
+    #header a.navPanelToggle{
+        text-decoration: none;
+        height: 4em;
+        width: 4em;
+        z-index: 10003;
+        display: inline-block;
+
+    }
+    #header a:last-child{
+        padding-right: 10px;
+    }
+
+    .flex.flex-3 article{
+
+        width: 100%;
+        margin: 0px 20px;
+        border-bottom: 1px solid;
+        padding: 15px 0px;
+    }
+    section.wrapper, article.wrapper{
+
+        padding: 0px;
+    }
+    .flex{
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: space-between;
+    }
+    .flex.flex-4{
+        padding: 15px;
+        justify-content: space-around;
+
+    }
+    .flex.flex-4 .box{
+        width: 47%;
+    }
+    #three>div>.flex-2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 10px;
+    }
+    #three>div>.flex-2 article{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    footer #footer{
+        margin: 25px;
+    }
+}
+@media screen and (max-width: 759px) {
+    #header a.navPanelToggle .fa{
+        font-size: 1.25em;
+        position: relative;
+        right: 30px;
+        bottom: 19px;
+    }
+    #footer{
+        margin: 25px;
+    }
+    #footer .flex{
+        flex-direction: column;
+    }
+    #footer .copyright{
+        text-align: center;
+    }
+    #footer .icons {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 479px) {
+    .flex.flex-4{
+        margin: 10px 27px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .flex.flex-4 .box{
+        margin: 10px auto;
+        width: 90%;
+    }
+    .flex.flex-3 article{
+        text-align: center;
+    }
+    button.special, .button.special{
+        width: 86%;
+    }
+    #three>div>.flex-2 article{
+        text-align: center;
+    }
+}

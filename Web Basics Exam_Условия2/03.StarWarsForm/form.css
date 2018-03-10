@@ -1,0 +1,116 @@
+body {
+    color: #fff;
+    background: #4C8ADD;
+    font-family: "lato" ;
+}
+#wrapper > h1,h2 {
+    text-align: center;
+}
+
+#wrapper {
+    width: 800px;
+    margin: 0 auto;
+    
+}
+#wrapper .left, .right {
+    background-color: #5496EF;
+    display:inline-block;
+    width: 50%;
+    
+    margin: 0;
+    padding: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+#wrapper .left {
+    border-right: 1px solid #fff;
+    float: left;
+    display: inline-block;
+    border-bottom: 1px solid #fff;
+}
+#wrapper .right {
+    float: right;
+    border-bottom: 1px solid #fff;
+}
+#wrapper .left form, .right form {
+    width: 170px;
+    float: left;
+    margin-top: 10px;
+    
+}
+#wrapper .small-img {
+    float: right;
+}
+.container > div.number {
+    width: 100%;
+    
+    box-sizing: border-box;
+    padding: 20px;
+    background: #5496EF;
+    border-bottom: 1px solid #fff;
+    
+}
+#wrapper > div > form {
+    padding-top: 20px;
+    
+}
+
+#wrapper .cont2 {
+    margin-top: 100px;
+}
+#wrapper .finish {
+    
+    text-align: center;
+    padding: 20px;
+    background: #3A77C8;
+    width: 100%;
+    float: left;
+    display: inline-block;
+    box-sizing: border-box;
+    
+}
+input {
+    background: none;
+    border: none;
+    color: #fff;
+    
+}
+#wrapper > div.container.cont4 > div > i.fa fa-lock{
+        font-family: "Awesome";
+    font-size: 10px;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    color: white;
+}
+.bg-img {
+    position: absolute;
+    z-index: -1000;
+    left: 3%;
+}
+h1 {
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 10px;
+    font-size: 20px;
+    margin-top: 120px;
+}
+#wrapper > div.container.cont3 > div.bottom {
+    border-bottom: none;
+}
+
+
+/*#wrapper .left, .right {
+    width: 350px;
+    height: 110px;
+    background-color: #5496EF;
+    display: flex;
+    flex-flow: wrap;
+    
+}
+
+
+
+
+
